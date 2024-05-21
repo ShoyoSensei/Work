@@ -1,0 +1,42 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+body{
+background-image: url(https://cdn.pixabay.com/photo/2022/12/29/06/16/mouth-7684262_1280.jpg);
+background-size: 100% ;
+background-repeat: no-repeat;
+background-position: 0% 20%;
+
+{font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+font-size: medium; 
+text-align: center;
+}
+label {
+display: inline-block;
+    width: 120px;
+}
+
+form {
+background-color: blueviolet;
+text-align: left;
+padding: 20px;
+width: fit-content;
+display: inline-block;
+
+}
+div {
+
+    color: antiquewhite;
+
+}
+
+h1 {
+margin;
+}
+
+.sekilsukul {
+margin-left: 40px;
+
+}
