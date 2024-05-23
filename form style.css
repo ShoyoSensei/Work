@@ -19,7 +19,8 @@ display: inline-block;
 }
 
 form {
-background-color: blueviolet;
+background-color: rgb(219, 35, 35);
+opacity: 75%;
 text-align: left;
 padding: 20px;
 width: fit-content;
