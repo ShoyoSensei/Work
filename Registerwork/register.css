@@ -6,20 +6,28 @@
 
 body {
   font-family: "Reddit Mono", monospace;
+  font-weight: 600;
+  background-image: url(https://cdn.pixabay.com/photo/2024/01/22/11/02/ai-generated-8524928_1280.png);
+  background-size: 100% ;
+background-repeat: no-repeat;
+background-position: 0% 20%;
+height: 100vh;
+
 }
 
-h1{
-padding: 20px;
-text-align: center;
-
-
+h1 {
+  padding: 20px;
+  text-align: center;
 }
 
 form {
-  background-color: tomato;
+  /* background-color: tomato; */
+  background-color: rgb(250, 112, 88);
+  opacity: 85%;
   width: fit-content;
   margin: 20px auto;
   padding: 30px;
+  border-radius: 25px;
 }
 
 label {
@@ -27,44 +35,40 @@ label {
   width: 100px;
 }
 
-input{
-    border-radius: 3px;
-    padding: 10px 5px;
-    margin: 4px;
-    border: none;
+input {
+  border-radius: 3px;
+  padding: 10px 5px;
+  margin: 4px;
+  border: none;
 }
 
 .inputs {
-    border-radius: 3px;
-    padding: 10px 5px;
-    margin: 4px;
-    border: none;
-    width: 250px;
+  border-radius: 3px;
+  padding: 10px 5px;
+  margin: 4px;
+  border: none;
+  width: 250px;
 }
 
 .radio-check {
-
-
-
-
 }
-.sekilsukul{
-    text-align: center;
+.sekilsukul {
+  text-align: center;
 }
-.sekilsukul input{
-width:  100px;
-border-radius: 10px;
-border: none;
-background-color: burlywood;
-padding:  10px;
+.sekilsukul input {
+  width: 100px;
+  border-radius: 10px;
+  border: none;
+  background-color: burlywood;
+  padding: 10px;
 }
-.sekilsukul :hover{
-background-color: chartreuse;
-color: deeppink;
-font-weight: 800;
-cursor: pointer;
+.sekilsukul :hover {
+  background-color: chartreuse;
+  color: deeppink;
+  font-weight: 800;
+  cursor: pointer;
+}
 
-
-
-
+textarea {
+  vertical-align: middle;
 }
