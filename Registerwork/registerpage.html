@@ -14,10 +14,11 @@
   </head>
   <body>
     <h1>REGISTER PAGE</h1>
-    <form action=""></form>
+    <form action="">
     <div>
       <label for="firstname">Firstname: </label>
       <input
+      class="inputs"
         type="text"
         id="firstname"
         name="firstname"
@@ -30,6 +31,7 @@
     <div>
         <label for="lastname">lastname: </label>
         <input
+        class="inputs"
           type="text"
           id="lastname"
           name="lastname"
@@ -41,6 +43,7 @@
       <div>
         <label for="email">Email: </label>
         <input
+        class="inputs"
           type="email"
           id="email"
           name="email"
@@ -52,6 +55,7 @@
       <div>
         <label for="password">Password:</label>
         <input
+        class="inputs"
           type="password"
           id="password"
           name="password"
@@ -62,6 +66,7 @@
       <div>
         <label for="dob">Day of birth: </label>
         <input
+        class="inputs"
           type="date"
           id="dob"
           name="dob"
@@ -75,6 +80,7 @@
     <div>
       <label for="phone">Phone:</label>
       <input
+      class="inputs"
         type="tel"
         id="phone"
         name="phone"
@@ -84,12 +90,13 @@
 
     <div>
         <label for="adress">Adress: </label>
-        <textarea name="adress" id="adress" cols="30" rows="6"></textarea>
+        <textarea name="adress" id="adress" class="inputs" cols="30" rows="6"></textarea>
       </div>
 
       <div>
         <label for="Country">Country: </label>
-        <select name="Country" id="Country">
+        <select name="Country" id="Country" class="inputs" >
+  
         <option value="NULL">Select Country</option>
         <option value="Afghanistan">Afghanistan</option>
         <option value="Åland Islands">Åland Islands</option>
@@ -341,19 +348,45 @@
       <div>
         <label for="gender">Gender: </label>
         <input type="radio" 
+        class="radio-check"
         name="gender"
         id="Male">
         <label for="Male">Male</label>
         <input type="radio" 
+        class="radio-check"
         name="gender"
         id="Female"
         checked>
         <label for="Female">Female</label>
       </div>
+      
+      <div>
+        <label for="language">language: </label>
+
+        <input type="checkbox"
+        class="radio-check"
+        name="language"
+        id="Francais">
+        <label for="Francais">Francais</label>
+
+        <input type="checkbox" 
+        class="radio-check"
+        name="language"
+        id="English"
+        <label for="English">English</label>
+
+        <input type="checkbox" 
+        class="radio-check"
+        name="language" 
+        id="Turkish"
+        checked>
+        <label for="Turkish">Turkish</label>
+      </div>
 
     <div class="sekilsukul">
-      <input type="submit" value="Save" />
-      <input type="reset" value="Reset" />
+      <input type="submit" value="Save" class="save-clean" />
+      <input type="reset" value="Clean" class="save-clean" />
     </div>
   </body>
 </html>
+</form>

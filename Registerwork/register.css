@@ -1,9 +1,70 @@
-*{
-margin: 0;
-padding: 0;
-box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body{
-    font-family: "Reddit Mono", monospace;
+body {
+  font-family: "Reddit Mono", monospace;
+}
+
+h1{
+padding: 20px;
+text-align: center;
+
+
+}
+
+form {
+  background-color: tomato;
+  width: fit-content;
+  margin: 20px auto;
+  padding: 30px;
+}
+
+label {
+  display: inline-block;
+  width: 100px;
+}
+
+input{
+    border-radius: 3px;
+    padding: 10px 5px;
+    margin: 4px;
+    border: none;
+}
+
+.inputs {
+    border-radius: 3px;
+    padding: 10px 5px;
+    margin: 4px;
+    border: none;
+    width: 250px;
+}
+
+.radio-check {
+
+
+
+
+}
+.sekilsukul{
+    text-align: center;
+}
+.sekilsukul input{
+width:  100px;
+border-radius: 10px;
+border: none;
+background-color: burlywood;
+padding:  10px;
+}
+.sekilsukul :hover{
+background-color: chartreuse;
+color: deeppink;
+font-weight: 800;
+cursor: pointer;
+
+
+
+
 }
