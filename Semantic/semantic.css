@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+text-align: center;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+background-color: rgb(255, 255, 255);
+}
+header{
+
+    padding: 20px;
+    background-color: mediumaquamarine;
+    font-size: 40px;
+    font-weight: 800;
+    color: rgb(6, 33, 121);
+} 
+
+nav{
+
+    padding: 10px;
+    background-color: rgb(4, 188, 201);
+    font-size: 20px;
+    font-weight: 800;
+    color: rgb(6, 33, 121);
+} 
+nav a:link {
+color: blue;
+
+}
+
+nav a:visited {
+    color: rgb(255, 255, 255);
+    
+    }
+
+    nav a:hover {
+
+        text-decoration: overline;
+
+      font-size: larger;
+    }
+    footer {
+
+        background-color: black;color: beige;
+        padding: 15px;
+        font-size: larger;
+    }
+    figcaption{
+
+        margin-bottom: 15px;
+    }
