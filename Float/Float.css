@@ -1,0 +1,14 @@
+*{
+margin: 0;
+
+
+}
+.imgf {
+
+    width: 10%;
+    float: left;
+}
+.clearfix {
+
+    clear: both;
+}
