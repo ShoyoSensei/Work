@@ -99,6 +99,34 @@ ul li a:hover {
   
 }
 
-.main__buttons {
-  width: 80px;
+.main__buttons--left,
+.main__buttons--right{
+height: 36px;
+padding: 1px 6px;
+border:none;
+border-radius: 4px;
+margin: ;
+background-color: rgb(45, 154, 187);
+color: #d3d3d3;
+opacity: 0.8;
+cursor: pointer;
+}
+
+.main__buttons--left:hover,
+.main__buttons--right:hover {
+opacity: 1;
+border: 1px solid #d3d3d3;
+box-shadow: ; rgb(211, 211, 211) 3px 3px 5px 0px;
+
+}
+
+.main__language{
+  margin-top: 20px;
+}
+
+.main__language a {
+  text-decoration: underline;
+}
+.main__language a:hover{
+  text-decoration: none;
 }
